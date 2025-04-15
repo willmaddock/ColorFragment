@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/redText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RED FRAGMENT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#F08080"/>
+
+        <TextView
+            android:id="@+id/blueText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BLUE FRAGMENT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#ADD8E6"/>
+
+    </LinearLayout>
+</FrameLayout>
