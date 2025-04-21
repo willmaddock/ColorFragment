@@ -1,3 +1,4 @@
+// William Maddock
 package edu.msudenver.cs3013.colorfragment
 
 import android.os.Bundle
